@@ -19,6 +19,5 @@ scmVersion {
 project.version = 1.0.1-SNAPSHOT
 
 wrapper {
-    gradleVersion = "5.1.1"
-    distributionType = Wrapper.DistributionType.ALL
+    distributionUrl=https://services.gradle.org/distributions/gradle-6.6.1-all.zip
 }
