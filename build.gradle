@@ -15,6 +15,7 @@ apply plugin: "pl.allegro.tech.build.axion-release"
 scmVersion {
     tag {
         prefix = 'Gradle_Axon'
+        initialVersion = '5.0.1-SNAPSHOT'
     }
 }
 
