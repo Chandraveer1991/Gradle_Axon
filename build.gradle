@@ -4,11 +4,11 @@ buildscript {
     }
 
     dependencies {
-        classpath group: 'pl.allegro.tech.build', name: 'axion-release-plugin', version: ''
+        classpath "pl.allegro.tech.build:axion-release-plugin:1.11.0"
     }
 }
 
-apply plugin: 'pl.allegro.tech.build.axion-release'
+apply plugin: "pl.allegro.tech.build.axion-release" version '1.11.0'
 
 scmVersion {
     tag {
