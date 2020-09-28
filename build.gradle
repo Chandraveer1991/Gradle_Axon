@@ -17,3 +17,8 @@ scmVersion {
 }
 
 project.version = 1.0.1-SNAPSHOT
+
+wrapper {
+    gradleVersion = "5.1.1"
+    distributionType = Wrapper.DistributionType.ALL
+}
