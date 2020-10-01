@@ -18,7 +18,7 @@ apply plugin: "pl.allegro.tech.build.axion-release"
 scmVersion {
     useHighestVersion = true
     tag {
-        initialVersion = {config, position -> '5.0.1'}
+        initialVersion = {config, position -> '5.0.2'}
         prefix = 'blog-post-axion-release'
         versionSeparator = '-'
     }
