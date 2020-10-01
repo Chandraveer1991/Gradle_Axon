@@ -13,8 +13,15 @@ apply plugin: "pl.allegro.tech.build.axion-release"
 
 
 scmVersion {
+    useHighestVersion = true
     tag {
-        prefix = 'Gradle_Axon'
+        initialVersion = {config, position -> '5.0.1'}
+        prefix = 'blog-post-axion-release'
+        versionSeparator = '-'
+    }
+    versionIncrementer 'incrementPatch'
+    nextVersion {
+        suffix = 'SNAPSHOT'
     }
 }
 
