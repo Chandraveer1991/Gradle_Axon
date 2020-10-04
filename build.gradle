@@ -22,7 +22,7 @@ scmVersion {
         prefix = 'blog-post-axion-release'
         versionSeparator = '-'
     }
-    versionIncrementer 'incrementPatch'
+    versionIncrementer 'incrementMinor'
     nextVersion {
         suffix = 'SNAPSHOT'
     }
